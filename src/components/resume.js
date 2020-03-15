@@ -4,7 +4,9 @@ class Resume extends Component{
     render(){
         return(
             <div>
-                <h1>Resume page</h1>
+                <video className="video" autoPlay loop muted >
+                    <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4"/>
+                </video>
             </div>
         )
     }

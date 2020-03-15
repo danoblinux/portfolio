@@ -21,11 +21,11 @@ class Landing extends Component{
                                     <i className="fa fa-github" area-hidden="true"></i>
                                 </a>
 
-                                <a href="https://github.com/danoblinux">
+                                <a href="https://www.linkedin.com/in/daniel-bubanec-ba9b9b1a4/">
                                     <i className="fa fa-linkedin" area-hidden="true"></i>
                                 </a>
 
-                                <a href="https://github.com/danoblinux">
+                                <a href="https://www.youtube.com/channel/UCyU-L-y4Ay3ntC7oKDcYV5g?view_as=subscriber">
                                     <i className="fa fa-youtube" area-hidden="true"></i>
                                 </a>
                             </div>
