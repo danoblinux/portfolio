@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="demo-big-content">
       <Layout>
-          <Header title="Title" scroll>
+          <Header className="header-color" title="Daniel Bubanec" scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About me</Link>
@@ -16,7 +16,7 @@ function App() {
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Daniel Bubanec">
               <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About me</Link>
