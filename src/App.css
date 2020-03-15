@@ -18,32 +18,43 @@
 }
 
 .avatar-image {
-  height: 250px;
-  padding-top: 5em;
-  overflow: hidden;
+  height: 180px;
 }
 
-.banner-text {
+.avatar-image h3 {
+  color: white;
+}
+
+.banner {
+  padding-top: 50px;
   background-color: black;
   opacity: .8;
   width: 75%;
   border-radius: 10px;
   margin: auto;
+  margin-top: 100px;
+  padding: 50px;  
 }
 
-.banner-text h1 {
-  font-size: 66px;
+.banner-left {
+  position: relative;
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+.banner h1 {
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
 
-.banner-text hr {
+.banner hr {
   border-top: 5px groove #34e89e;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p {
+.banner p {
   color: white;
   font-size: 20px;
   padding: 1em;
@@ -59,7 +70,6 @@
 .social-links i {
   color: #34e89e;
   font-size: 5em;
-  padding: 4px;
 }
 
 .video {
